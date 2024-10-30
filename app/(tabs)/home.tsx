@@ -1,4 +1,4 @@
-import {ScrollView, StyleSheet, View} from 'react-native';
+import {StyleSheet, View} from 'react-native';
 import {CarCard} from "../../components/ui/car-card";
 import {Services} from "../../components/ui/services";
 
