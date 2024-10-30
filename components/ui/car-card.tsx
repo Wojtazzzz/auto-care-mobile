@@ -12,7 +12,7 @@ export const CarCard = () => {
                 <Text style={styles.type}>Pojazd główny</Text>
                 <Text style={styles.link}>pozostałe</Text>
             </View>
-            <Text style={styles.name}>Volkswagen Golf</Text>
+            <Text style={styles.name}>Volkswagen Passat</Text>
             <View style={styles.info}>
                 <Text style={styles.infoName}>Przegląd do</Text>
                 <Text style={styles.infoName}>Ubezpieczenie do</Text>

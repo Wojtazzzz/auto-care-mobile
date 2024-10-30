@@ -1,5 +1,6 @@
 {
   "expo": {
+    "backgroundColor": "#ffffff",
     "name": "auto-care-mobile",
     "slug": "auto-care-mobile",
     "version": "1.0.0",
