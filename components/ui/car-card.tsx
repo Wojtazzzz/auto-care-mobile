@@ -1,8 +1,13 @@
 import {StyleSheet, Text, View} from "react-native";
+import {LinearGradient} from 'expo-linear-gradient';
 
 export const CarCard = () => {
     return (
-        <View style={styles.container}>
+        <LinearGradient
+            colors={['#4a90e2', '#6bb4ff']}
+            start={{x: 0, y: 0}} end={{x: 1, y: 0}}
+            style={styles.container}
+        >
             <View style={styles.topBar}>
                 <Text style={styles.type}>Pojazd główny</Text>
                 <Text style={styles.link}>pozostałe</Text>
@@ -17,7 +22,7 @@ export const CarCard = () => {
                 <Text style={styles.date}>01/01/24</Text>
             </View>
             <Text style={styles.vin}>WBAAA000000000000</Text>
-        </View>
+        </LinearGradient>
     )
 }
 
